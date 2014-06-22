@@ -30,8 +30,9 @@
 		    *	 6. Edit method modifies the current log.
 		    */	
 			public function write($message) {
+				global $root;
 				$date = new DateTime();
-				$log = $this->path . $date->format('Y-m-d').".txt";
+				$log = $root."/log/" $date->format('Y-m-d').".log";
 
 				if(is_dir($this->path)) {
 					if(!file_exists($log)) {
