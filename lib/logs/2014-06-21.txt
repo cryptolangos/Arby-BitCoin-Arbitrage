@@ -1,0 +1,7 @@
+Time : 13:59:58
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+Raw SQL : SELECT * FROM balances ORDER BY date DESC limit 1
+
+Time : 09:33:25
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+Raw SQL : SELECT * FROM balances ORDER BY date DESC limit 1
