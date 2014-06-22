@@ -3,6 +3,13 @@
 	$root = '/root/wip/arby'; // Working location
 	$profit = '5'; // %
 	$interval = ((60 * 60) * 1);
+	
+	// Database Settings
+	$database['host'] = "";
+	$database['name'] = "";
+	$database['user'] = "";
+	$database['pass'] = "";
+	
 	// Enable Exchanges
 	$exchanges = array(
 		"kraken" => False,
@@ -10,9 +17,7 @@
 		"btce" => True,
 		"campbx" => True,
 	);
-
 	// Exchange Specific Config
-	
 	// Kraken
 	$kraken['key'] = "";
 	$kraken['secret'] = "";
@@ -26,10 +31,4 @@
 	// BTCE
 	$btce['key'] = "";
 	$btce['secret'] = "";
-
-	// Database Settings
-	$database['host'] = "";
-	$database['name'] = "";
-	$database['user'] = "";
-	$database['pass'] = "";
 ?>
