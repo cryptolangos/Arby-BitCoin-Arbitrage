@@ -1,7 +1,0 @@
-Time : 22:37:00
-SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BY date DESC limit 1' at line 1
-Raw SQL : SELECT * FROM balances SORT BY date DESC limit 1
-
-Time : 22:36:09
-SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BY date DESC limit 1' at line 1
-Raw SQL : SELECT usd,btc FROM balances SORT BY date DESC limit 1
